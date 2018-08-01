@@ -10,7 +10,7 @@ const queue = new Map();
 
 var servers = {};
 
-client.login(process.);
+client.login(process.env.TOKEN);
 
 function play(connection, message) {
   var server = servers[message.guild.id];
